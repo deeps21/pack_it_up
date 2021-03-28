@@ -18,7 +18,7 @@ In this whole process, the prime objective is cost optimization.
 - [x] 1. Design the front end of website.
 - [x] 2. Implementation of backend frameworks.
 - [x] 3. Create a demo data set.
-- [x] 4. Prepare 'codebase.py' file. In this file there should be the demo dataset of some materials which are commonly used for packaging.
+- [x] 4. Prepare 'codebase.py' file and there should be the demo dataset of materials which are commonly used for packaging.
 
 
 #### Stage 2:
@@ -34,12 +34,12 @@ The information in python file codebase.py is arbitary and random, real knowledg
    * Durability of product
    * Specified packaging material(ex. Tetrapack), etc.
    <br>
-<strong>Constraints and factors on which packaging depends on:</strong>
-For Solid:
+<strong>The factors on which packaging will be depend:</strong>
+For Solid state products:
 
     * All properties
-      * Dimensions
-      * Orientation of product
+      * Physical dimensions
+      * Orientation of the product
       * Fragile nature
       * Durability / use before, etc.
     * Manufacturing state
@@ -56,4 +56,4 @@ For Solid:
       * any other
     * etc.
 
-The scope of this project is limited to the solid objects (mainly biscuit) but can be extended to the other objects as well.
+For now, the scope of this project is limited to the solid objects (mainly biscuit) but can be extended to the other products as well.

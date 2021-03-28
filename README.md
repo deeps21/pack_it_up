@@ -79,4 +79,4 @@ For now, the scope of this project is limited to the solid objects (mainly biscu
  7. Then process all the data in the form of list from "packing.py" to the firebase and then from to the websitea as well.
 
 
-### Website link : 
+### Website link : https://silly-kepler-2bf722.netlify.app/

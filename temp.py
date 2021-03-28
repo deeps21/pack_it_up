@@ -1,7 +1,7 @@
 #/usr/bin/env python3
 
 import pyrebase
-from  sklearn  import  tree
+from  sklearn.neural_network  import MLPClassifier
 
 config = {
   "apiKey": "AIzaSyByA7celafHSloxdOLA7_s-D097Ld10Jus",
@@ -66,7 +66,7 @@ label=["singlelayerglass","doublelayerglass","triplelayerglass","singlelayeralum
 ,"double_faced","single_wall","double_wall","coated","polyethylene","hdpe","LDPE","polystyrene","pvc"]
 
 # now calling  decision tree algo
-algo=tree.DecisionTreeClassifier()
+algo= MLPClassifier(max_iter=500, learning_rate_init=0.004)
 # time for training data
 trained=algo.fit(features,label)
 

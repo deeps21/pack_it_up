@@ -34,7 +34,9 @@ The information in python file codebase.py is arbitary and random, real knowledg
    * Durability of product
    * Specified packaging material(ex. Tetrapack), etc.
    <br>
-<strong>Factors on which packaging depends on:</strong>
+<strong>Constraints and factors on which packaging depends on:</strong>
+For Solid:
+
     * All properties
       * Dimensions
       * Orientation of product
@@ -53,7 +55,6 @@ The information in python file codebase.py is arbitary and random, real knowledg
       * Cardboard
       * any other
     * etc.
-    
 
 For now, the scope of this project is limited to the solid objects (mainly biscuit) but can be extended to the other products as well.
 

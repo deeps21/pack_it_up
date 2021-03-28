@@ -23,9 +23,8 @@ In this whole process the cost optimization is the prime objective.
 #### Stage 2:
 - [x] A website that will take the inputs of the certain properties of the object from the user, store it in database and compare with the package material which is best suitable for that object.
 This comparison is done between the data which is pre-loaded in file `codebase.py` and the user inputs. After a careful analysis of the properties of packing material which suits the object, a list is generated of suitable materials.
-All the data in `codebase.py` is arbitary and random, real data can be used in the code to get the exact results.
-Getting the data from the firebase using `pyrebase`.
-<strong>Properties which are taken as an input from the users are: </strong>
+All the information in codebase.py is arbitary and random, real knowledge may be employed in the code to induce the precise results. obtaining the information from the base mistreatment pyrebase. 
+<strong>Properties which will be taken as an input from the users are: </strong>
    * Dimensions
    * State of product
    * Chemical properties

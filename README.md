@@ -34,16 +34,18 @@ The information in python file codebase.py is arbitary and random, real knowledg
    * Durability of product
    * Specified packaging material(ex. Tetrapack), etc.
    <br>
-<strong>Constraints and factors on which packaging depends on:</strong>
+<strong>Factors on which packaging will be depend:</strong>
 For Solid:
 
-    * All properties
-      * Dimensions
-      * Orientation of product
+    * All the properties
+      * Physical dimensions
+      * Orientation of the product
       * Fragile nature
       * Durability / use before, etc.
     * Manufacturing state
       * Powder
+      * Liquid
+      * solid
       * etc.
     * Packaging Materials
       * Plastic

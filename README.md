@@ -18,3 +18,42 @@ In this whole process the cost optimization is the prime objective.
 - [x] 2. Implementation of backend frameworks.
 - [x] 3. Ccreate a demo data set.
 - [x] 4. Prepare 'codebase.py' file. In this file there should be the demo dataset of some materials which are commonly used for packaging.
+
+
+#### Stage 2:
+- [x] A website that will take the inputs of the certain properties of the object from the user, store it in database and compare with the package material which is best suitable for that object.
+This comparison is done between the data which is pre-loaded in file `codebase.py` and the user inputs. After a careful analysis of the properties of packing material which suits the object, a list is generated of suitable materials.
+All the data in `codebase.py` is arbitary and random, real data can be used in the code to get the exact results.
+Getting the data from the firebase using `pyrebase`.
+<strong>Properties which are taken as an input from the users are: </strong>
+   * Dimensions
+   * State of product
+   * Chemical properties
+      * Reaction with oxygen
+      * Photosensitive, etc.
+   * Durability of product
+   * Packaging material specified(ex. Tetrapack), etc.
+   <br>
+<strong>Constraints and factors on which packaging depends on:</strong>
+For Solid:
+
+    * All properties
+      * Dimensions
+      * Orientation of product
+      * Fragile nature
+      * Durability / use before, etc.
+    * Manufacturing state
+      * Powder
+      * etc.
+    * Packaging Materials
+      * Plastic
+      * Cardboard
+      * Metal / Tin
+      * Glass
+    * Costing
+      * Plastic
+      * Cardboard
+      * any other
+    * etc.
+
+The scope of this project is limited to the solid objects (mainly biscuit) but can be extended to the other objects as well.

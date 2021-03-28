@@ -1,4 +1,4 @@
-# **PACK IT UP**
+# **PACK-IT-UP**
 ## **Optimal Solution for food Packaging**
 
 
@@ -11,3 +11,10 @@ A simulation has to be done basis forces that products undergo during the journe
 A website in which the properties of the objects will be taken as an input and then select the best suitable material for that in which
 object can sustain much longer also the most optimum orientation and design of the product which can minimize the area of packing.
 In this whole process the cost optimization is the prime objective.
+
+
+#### Stage 1:
+- [x] 1. Make front end of website.
+- [x] 2. Implementation of backend frameworks.
+- [x] 3. Ccreate a demo data set.
+- [x] 4. Prepare 'codebase.py' file. In this file there should be the demo dataset of some materials which are commonly used for packaging.

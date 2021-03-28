@@ -15,7 +15,7 @@ In this whole process, the prime objective is cost optimization.
 
 
 
-### Our approach to the implementation
+### Our approach to the implementation :
 
 #### Stage 1:
  1. Design the front end of website.

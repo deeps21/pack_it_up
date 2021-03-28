@@ -57,3 +57,20 @@ The information in python file codebase.py is arbitary and random, real knowledg
     * etc.
 
 For now, the scope of this project is limited to the solid objects (mainly biscuit) but can be extended to the other products as well.
+
+#### Stage 3:
+
+- [x] 1. Code `orientation.py`.
+- [x] 2. Design an algorithm which will test all the possible arrangements of the object in the packing packet and then return the one which is occupies minimum surface area and is also durable.  
+- [x] 3. Generate the best possible arrangement of product inside the packing, determine shape and surface area of the packing.
+- [x] 4. Making front End for the results page.
+- [x] 5. Making javascript for the processing page.
+
+#### Stage 4:
+
+- [x] 1. Code `packing.py`
+- [x] 2. Now link the cost and properties of each material in `codebase.py` and the defined the best possible orientation with a logic in which we find out the most optimum packaging of the object.
+- [x] 3. In that file we will link the codebase.py , orientation.py. From these files we find out the areas of all possible orientations and the best materials used for the objects.
+- [x] 5. Linking the firebase and the python file.
+- [x] 6. Importing the files `codebase.py` and `orientation.py` in `packing.py`.
+- [x] 7. Sending data in the form of list from packing.py to the firebase and then from to the website.

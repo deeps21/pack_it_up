@@ -10,7 +10,7 @@ This model ought to give the ideal or optimum outcomes for the packing of the pr
 A simulation needs to be done to get those optimum results.
 
 ### Solution :
-A website in which the properties like chemical reactions and physical dimensions of the objects will be taken as an input from the user and then select the best suitable material for that in which product can sustain much longer also the most optimum orientation and design of the product which can minimize the area of packing.
+A website in which the properties like chemical reactions and physical dimensions of the objects will be taken as an input from the user and then select the best suitable material for that. In which product can be sustain much longer than usual. Also the design of the product which can minimize the area of packing in order to decrease the packaging cost.
 In this whole process, the prime objective is cost optimization.
 
 
@@ -44,8 +44,6 @@ For Solid:
       * Durability / use before, etc.
     * Manufacturing state
       * Powder
-      * Liquid
-      * solid
       * etc.
     * Packaging Materials
       * Plastic

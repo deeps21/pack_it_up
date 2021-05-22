@@ -79,4 +79,6 @@ For now, the scope of this project is limited to the solid objects (mainly biscu
  7. Then process all the data in the form of list from "packing.py" to the firebase and then from to the websitea as well.
 
 
+### Blog : https://pack-it-up.hashnode.dev/pack-it-up
+### Demo Video : https://www.youtube.com/watch?v=s99JP4GwTns
 ### Website link : https://pack-it-up.netlify.app/
